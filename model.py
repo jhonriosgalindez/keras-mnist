@@ -13,7 +13,7 @@ from tensorflow.keras.utils import to_categorical
 
 print("Cargando datos de MNIST...")
 
-# 2. Cargar los datos (solo entrenamiento para este ejercicio)
+# 2. Cargar los datos
 (x_train, y_train), _ = mnist.load_data()
 
 print(f"Forma de las imágenes de entrenamiento (X_train): {x_train.shape}")
